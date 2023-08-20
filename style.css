@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(#fff,#b5c4e6);
+    
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(#2b1055,#7597de);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+header .logo
+{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 30px;
+}
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-right: 30px;
+}
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+header ul li a.active,
+header ul li a:hover
+{
+    background: #fff;
+    color: #2b1055;
+}
+
+main {
+    max-width: 8000px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.tab {
+    margin-top: 100px;
+}
+
+main .fotoprofil {
+    display: flex;
+    justify-content: center;
+}
+
+main .greetings {
+    text-align: center;
+}
+
+footer {
+    background-color: #1f2942;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
